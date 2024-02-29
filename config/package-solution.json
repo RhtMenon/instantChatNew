@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "instant-chat-client-side-solution",
+    "id": "1f130937-b1cc-4660-bc54-980f93a62c9c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "instant-chat description"
+      },
+      "longDescription": {
+        "default": "instant-chat description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "instant-chat Feature",
+        "description": "The feature that activates elements of the instant-chat solution.",
+        "id": "b9b299bb-c394-496b-8c01-b64449d6a9fa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/instant-chat.sppkg"
+  }
+}

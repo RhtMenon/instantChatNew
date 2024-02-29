@@ -1,0 +1,176 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+*{
+  box-sizing: border-box;
+}
+.instantChat{
+  border: 1px solid #d3d1d1;
+}
+
+.instantChat h5{
+  color: #fff;
+  font-weight: normal;
+}
+.TopSection{
+  background-color: #004e8c;
+  padding: 20px 20px;
+}
+.FormControl{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem!important;
+    line-height: 2.375rem!important;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.instantChat h2{
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.SearchBar{
+  width: 100%;
+  font-size: 15px;
+  outline: 0;
+  padding: 8px 10px 8px 35px;
+  border: 1px solid #fff;
+
+}
+.col6 select{
+  width: 100%;
+  margin-top: 20px;
+}
+.FormGroup{
+  position: relative;
+}
+.FormGroup span{
+  position: absolute;
+  top: 1px;
+}
+.SearchBar:focus{
+  outline: none!important;
+  box-shadow: none!important;
+  border: 1px solid #fff!important;
+}
+.Select{
+  font-size: 15px!important;
+  padding: 8px 10px!important;
+}
+.Select:focus{
+  outline: none!important;
+  box-shadow: none!important;
+  border: 1px solid #fff!important;
+}
+.BottomSection{
+  padding: 25px 20px 0;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+.UserDetails{
+  display: flex;
+}
+.ImgBox{
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 50px;
+}
+.ImgBox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Contents{
+  font-weight: 600;
+  font-size: 16px;
+}
+.Contents span{
+  font-size: 14px;
+  font-weight: normal;
+  color: #777;
+  line-height: 16px;
+  display: block;
+  margin-top: 6px;
+}
+.BottomSection a {
+  display: inline-block; // Add this line
+  color: #fff;
+  background-color: #004e8c;
+  border: 1px solid #004e8c;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: .3s ease-in-out;
+  width: auto; // Change this line
+  margin-left: 10px;
+  text-decoration: none;
+}
+.BottomSection a:hover{
+  background-color: transparent;
+  color: #004e8c;
+}
+.ContentSection{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.row{
+  display: flex;
+  gap:10px;
+
+}
+.col6{
+  width: 50%;
+}
+.col12{
+  width: 100%;
+}
+.BottomSection .row{
+  gap: 0!important;
+}
+.BottomSection h6{
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+@media only screen and (max-width: 567px) {
+  .col6{
+    width: 100%!important;
+  }
+  .row{
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  .TopSection{
+    background-color: #004e8c;
+    padding: 30px 10px 20px;
+  }
+  .BottomSection{
+    padding: 30px 10px;
+  }
+  .col6 select{
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .BottomSection a {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+}
+
+.instantChat ::-webkit-scrollbar {
+    width: 5px;
+}
+.instantChat ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.instantChat ::-webkit-scrollbar-thumb {
+    background: #999;
+}

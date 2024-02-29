@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "instant-chat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/instantChat/InstantChatWebPart.js",
+          "manifest": "./src/webparts/instantChat/InstantChatWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InstantChatWebPartStrings": "lib/webparts/instantChat/loc/{locale}.js"
+  }
+}

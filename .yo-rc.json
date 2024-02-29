@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.0.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "instant-chat",
+    "libraryId": "1f130937-b1cc-4660-bc54-980f93a62c9c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "instant-chat",
+    "solutionShortDescription": "instant-chat description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
